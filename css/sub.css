@@ -1,0 +1,15 @@
+.subcontainer{width: 100%;height: 160px;overflow: hidden;background-repeat: no-repeat;background-size: cover;opacity: 0.9;}
+.scon1{background-image: url(../img/sub/subcontainer_bg_01.jpg);}
+.scon2{background-image: url(../img/sub/subcontainer_bg_02.jpg);}
+.scon3{background-image: url(../img/sub/subcontainer_bg_03.jpg);}
+.scon4{background-image: url(../img/sub/subcontainer_bg_04.jpg);}
+.scon5{background-image: url(../img/sub/subcontainer_bg_05.jpg);}
+.subcontainer h2{margin-top: 40px;margin-left: 10px;}
+.subcontainer p{margin-top: 10px;margin-left: 15px;color:#fff;font-size: 16px;line-height: 22px;}
+
+.invigator{width: 100%;height: 100px;top:150px;}
+.invigator > ul > li{float: left;width: 50%;height: 50px;font-size: 18px;border-bottom: 1px solid #ccc;box-sizing: border-box;}
+.invigator > ul > li:nth-child(1){box-sizing: border-box;border-right:1px solid #ccc}
+.invigator > ul > li:nth-child(3){box-sizing: border-box;border-right:1px solid #ccc}
+.invigator > ul > li > a{display: block;color:#666;text-align: center;line-height: 50px;font-weight: 600;}
+.invigator > ul > li.active a{background-color: #aa9a66;color:#fff;}

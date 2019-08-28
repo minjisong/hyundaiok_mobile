@@ -1,0 +1,33 @@
+/*intro*/
+.brand{background-color: #f1f1f1;}
+.brand h4{font-size: 24px;line-height: 30px;margin:20px 10px;font-weight: 600;}
+.brand h5{font-size: 18px;line-height: 28px;margin: 10px 10px;font-weight: 600;color:#777;}
+.brand p{font-size: 18px;line-height: 26px;padding: 20px 10px;color:#333;text-align: justify}
+.brand > div{margin: 10px 0; background-color: #fff;}
+.brand .intbox02{background-color:#f1f1f1;padding: 10px 0;}
+.brand .intbox02 img{margin-left: 15px; margin-bottom: 30px;}
+.brand .intbox03 img{width: 100%;}
+
+.brand > div{opacity: 0;position: relative;top:0;left:-150px;}
+.brand > div.intbox02{opacity: 0;position: relative;top:0;left:150px;}
+.brand > div.on{opacity: 1;left:0px;transition: 0.7s ease-out;transition-delay: 0.2s}
+
+@media screen and (max-width:375px){
+    .brand h4{font-size: 20px;}
+    .brand h5{font-size: 16px;}
+}
+/*----------------intro and----------------*/
+.history iframe{border:none;width: 100%;height: 1600px;}
+
+/*cibi*/
+.cibi img{width: 100%;}
+
+/*map*/
+.history{padding: 0 10px;margin-bottom: 50px;}
+#map{width: 100%;height: 250px;margin-top: 40px;}
+.leftbox h4, .rightbox h4{font-size: 24px;font-weight: 600;color:#938874;margin-top: 30px;margin-bottom: 20px;}
+.leftbox ul li{color:#666;font-size: 18px;font-weight: 600;margin: 20px 0;}
+.leftbox ul li > span{font-weight: normal;display: block;line-height: 26px;margin: 5px 0px;border-top:1px solid #ccc;}
+
+.rightbox span{font-size: 18px;color:#666;line-height: 26px;border-top:1px solid #ccc;display: block;}
+/*----------------map and----------------*/

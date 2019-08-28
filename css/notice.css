@@ -1,0 +1,14 @@
+.invigator{width: 100%;height: 50px;top:150px;margin-bottom: 30px;}
+
+.searchbox{width: 100%;height: 50px;}
+.searchbox > *{border: 2px solid #ccc;box-sizing: border-box; float:left;font-size: 16px;font-weight: 600;}
+.searchbox select{width: 20%;height: 50px;}
+.searchbox input[type="text"]{width: 50%;height: 50px;border-left:none; border-right:none;text-align: left;padding-left: 10px;}
+.searchbox input[type="button"]{width: 30%;height: 50px;}
+
+.notice{padding: 10px;}
+.notice .noticebox figure img{width: 30%;float: left;height: 80px;}
+.notice_right{width: 70%;height: 80px;box-sizing: border-box; border:1px solid #ccc;float: left;margin-bottom: 10px;padding: 5px;}
+.notice_right h5{font-size: 18px;font-weight: 600;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;padding-right: 10px;}
+.notice_right p{font-size: 16px;color:#333;margin: 10px 0 5px 0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap}
+.notice_right span{font-size: 14px;color:#777;}

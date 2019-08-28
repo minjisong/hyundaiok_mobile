@@ -1,0 +1,12 @@
+.menu{background-color: #efefef;padding: 0 10px;}
+.menu .menu_content{width: 100%;overflow: hidden;margin-top: 10px;background-color: #fff;}
+.menu figure img{width: 100%;}
+.menu .menu_text{width: 100%;padding: 10px;}
+.menu .menu_text h5{width: 100%;font-size: 22px;font-weight: 600;color:#666;margin-bottom: 10px;}
+.menu .menu_text p{width: 100%;font-size: 16px;color:#666;}
+.menu .menu_text span{width: 100%;font-size: 20px;font-weight: bold;display: block;margin: 15px 0;}
+.sub_menu_notice{border:1px solid #ccc;background-color: #fff;padding: 10px;height: 80px;line-height: 40px;text-align: center;font-size: 18px;margin-top: 30px;}
+
+@media screen and (max-width:320px){
+    .sub_menu_notice{font-size: 14px;}
+}

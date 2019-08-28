@@ -1,0 +1,45 @@
+/*mslider*/
+.mslider{width: 100%;overflow: hidden;}
+.mslider .flexslider{width: 100%;overflow: hidden;position: relative;}
+.mslider .flex-control-nav{z-index: 100;bottom: 10px;}
+.mslider .flex-control-paging li a{background-color: #fff;width: 5px;height: 5px;opacity: 1;}
+.mslider .flex-control-paging li a.flex-active{transform: scale(2);opacity: 1;}
+
+/*menu swiper*/
+.menu{width: 100%; padding-left: 10px; box-sizing: border-box;height: 650px;
+      background-image: url(../img/main/brand_right_icon.png), url(../img/main/menu_pt_bg.png);background-repeat: no-repeat;background-position: top center, top left;background-size: 10%, 150%;}
+.menu h3{font-size: 24px;font-weight: 600;color:#666;padding-top: 100px;font-size: 24px;margin-bottom: 10px;}
+.menu p{width: 95%;font-size: 16px;line-height: 22px;}
+.menu .swiper-container{padding: 30px 0;padding-right: 60px;}
+.menu .swiper-wrapper{width: 100%;}
+.menu .swiper-slide img{width:100%;}
+.menu .swiper-slide{padding-bottom: 20px; background-color: #fff;height: 350px;box-shadow: 1px 1px 5px #ddd;}
+.menu .swiper-slide h4{font-size: 24px;padding:15px 0 15px 10px;font-weight: 600}
+.menu .swiper-slide p{font-size: 18px;padding-left: 10px;line-height: 22px;}
+
+
+/*franchise*/
+.franchise{width: 100%;overflow: hidden;padding: 40px 10px;box-sizing: border-box;}
+.franchise h2{font-size: 24px;font-weight: 600;color:#666;margin-bottom: 10px;}
+.franchise h3 a{font-size: 48px;font-weight: 900;color: #938874;}
+.franchise p{font-size: 16px;margin-bottom: 30px;margin-top: 10px;}
+.franchise .btns button{display: block; width: 100%;height: 60px;border-radius: 30px;color: #938874;border:2px solid #938874;margin-bottom: 20px;background-color: transparent;transition: 0.6s;font-size: 16px;line-height: 60px;}
+.franchise .btns button:hover{background-color: #938874;color:#fff;;}
+
+/*custom*/
+.custom{width: 100%;overflow: hidden;padding: 40px 10px 10px 10px; box-sizing: border-box;background-image: url(../img/main/custom_bg.png);background-size: 160%;background-repeat: no-repeat;}
+.custom h2{font-size: 24px;font-weight: 600;color:#666;margin: 10px 0;text-align: center}
+.custom p{font-size: 16px;margin-bottom: 30px;text-align: center;line-height: 22px;}
+.custom button{display: block; width: 100%;height: 60px;border-radius: 30px;color: #fff;border:none;margin-bottom: 20px;background-color: #938874;transition: 0.6s;font-size: 16px;line-height: 60px;}
+.custom button:hover{background-color: transparent;border:2px solid #938874;color:#938874;}
+
+/*미디어쿼리 320 기준*/
+@media screen and (max-width:320px){
+    .menu .swiper-slide h4{font-size: 20px;}
+    .menu .swiper-slide p{font-size: 16px;padding-left: 10px;line-height: 20px;}
+    .franchise h3 a{font-size: 42px;font-weight: 900;color: #938874;}
+    .custom{background-size: 200%;}
+    .menu .swiper-slide{height: 300px;}
+}
+/*pc버전으로가기*/
+body > a{display: block;width: 100%;height: 50px;text-align: center;padding: 20px;padding: 20px;box-sizing: border-box;background-color: #333;font-weight: 600;color:#fff;}
